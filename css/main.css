@@ -1,0 +1,122 @@
+.top-logo {
+    position: absolute;
+    display: inline-block;
+    margin: 8px;
+    padding-top: 8px;
+    width:15%;
+    top:13px;
+}
+.top-slogan{
+    display: inline-block;
+    margin: 4px 10px;
+    color: white;
+    position: inherit;
+    left: 95px;
+}
+.btn {
+    width: 256px;
+    border-radius: 0px !important;
+    margin:10px 0px; 
+    color: white;
+    text-decoration: none;
+}
+.link-top{
+    background-color: green;
+    margin-top:8px;
+}
+.Slogan {
+    font-size: 51px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+}
+
+.Slogan-text {
+    text-align: center;
+    color: white;
+    padding-top: 22px;
+}
+
+.Icons ,.Testimony, .Title2 {
+    text-align: center;
+}
+
+.img-wrap img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.Icon-text ,.Title2
+    {
+    color: white;
+}
+
+.Info-button {
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.Title {
+    text-transform: uppercase;
+    color: #211057;
+    text-align: center;
+    margin: 24px;
+}
+
+.Cover-img {
+    background-position: fixed;
+    background-size: cover;
+}
+.Get-hiv{
+    background-color: #211057;
+    padding:16px 0px;
+    margin-top:16px;
+}
+.Top-iframe{
+    text-align: center;
+    margin:78px 0px;
+    padding-left: 16px;
+}
+
+h3 {
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 69px;
+    font-size: xx-large;
+}
+h5{
+    color: #33BCF5;
+}
+.Wrap{
+    margin: 20px 0px;
+}
+.Wrap iframe{
+    float: right;
+}
+.col-md-3{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.line{
+    width:50%;
+    height: 8px;
+    background-color:#2AD0E2;
+    margin: 3% 0px;
+}
+footer {
+    background-color: #B94747;
+    text-align: center;
+    color:white;
+    padding:20px;
+}
+
+@media screen and (max-width: 768px) {
+.btn {
+    width: 100% !important;
+    }
+.Wrap iframe{
+    float: none !important;
+    width: 100%;
+ }   
+}
